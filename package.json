@@ -4,6 +4,7 @@
     "main": "index.js",
     "scripts": {
         "start": "tsc && node --inspect ./build/index.js",
+        "build": "tsc",
         "dev": "clear && ts-node-dev --transpile-only --ignore-watch node_modules ./src/index.ts"
     },
     "author": "celio",
